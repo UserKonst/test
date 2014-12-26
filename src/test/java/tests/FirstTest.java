@@ -13,9 +13,9 @@ import org.junit.Test;
  *
  * @author Konst
  */
-public class First {
+public class FirstTest {
 
-    public First() {
+    public FirstTest() {
     }
 
     @Test
