@@ -23,6 +23,7 @@ public class FirstTest {
         NewClass cl = new NewClass();
 
         Assert.assertTrue("1234", cl.test());
+        System.out.println("дженкинс уебок");
     }
     
     @Test
