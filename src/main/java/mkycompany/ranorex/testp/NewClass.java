@@ -15,8 +15,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
  */
 public class NewClass {
 
-    public boolean test() throws InterruptedException {
-
+    public void test() throws InterruptedException {
+        System.out.println("start");
         WebDriver driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
@@ -26,6 +26,6 @@ public class NewClass {
         Thread.sleep(2000);
         System.out.println("good");
         driver.quit();
-        return true;
+        System.out.println("finish");
     }
 }
