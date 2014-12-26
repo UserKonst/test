@@ -21,12 +21,13 @@ public class FirstTest {
     @Test
     public void test1() throws InterruptedException {
         NewClass cl = new NewClass();
-
+        cl.test();
         System.out.println("дженкинс уебок");
     }
-    
+
     @Test
-    public void test2(){
-        System.out.println("88888888888888888888888");}
+    public void test2() {
+        System.out.println("88888888888888888888888");
+    }
 
 }
