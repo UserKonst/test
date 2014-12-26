@@ -15,7 +15,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
  */
 public class NewClass {
 
-    public void test() throws InterruptedException {
+    public void test() {
         System.out.println("start");
         WebDriver driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -23,7 +23,6 @@ public class NewClass {
         driver.manage().window().maximize();
 
         driver.get("http://www.ranorex.com/web-testing-examples/vip");
-        Thread.sleep(2000);
         System.out.println("good");
         driver.quit();
         System.out.println("finish");
