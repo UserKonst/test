@@ -19,7 +19,7 @@ public class FirstTest {
     }
 
     @Test
-    public void test1() throws InterruptedException {
+    public void test1() {
         NewClass cl = new NewClass();
         cl.test();
         System.out.println("дженкинс уебок");
