@@ -6,6 +6,7 @@
 package mkycompany.ranorex.testp;
 
 import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -23,6 +24,11 @@ public class NewClass {
         driver.manage().window().maximize();
 
         driver.get("http://www.ranorex.com/web-testing-examples/vip");
+        System.out.println("ввожу");
+        driver.findElement(By.id("FirstName")).sendKeys("a;lkf;asdkf");
+        System.out.println("ввел");
+        String text = driver.findElement(By.id("FirstName")).getText();
+        System.out.println("TEXT: " + text);
         System.out.println("good");
         driver.quit();
         System.out.println("finish");
