@@ -22,7 +22,6 @@ public class FirstTest {
     public void test1() throws InterruptedException {
         NewClass cl = new NewClass();
 
-        Assert.assertTrue("1234", cl.test());
         System.out.println("дженкинс уебок");
     }
     
