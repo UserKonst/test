@@ -8,6 +8,7 @@ package mkycompany.ranorex.testp;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 /**
@@ -18,7 +19,10 @@ public class NewClass {
 
     public void test() {
         System.out.println("start");
-        WebDriver driver = new FirefoxDriver();
+        System.setProperty("webdriver.chrome.driver", "D:/chromedriver/chromedriver.exe");
+
+        WebDriver driver = new ChromeDriver();
+        
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
         driver.manage().window().maximize();
