@@ -26,7 +26,14 @@ public class FirstTest {
     public void test1() {
         NewClass cl = new NewClass();
         cl.test();
-        System.out.println("sdfgsdfgsdg");
+        System.out.println("test1");
+    }
+    
+     @Test
+    public void test12() {
+        NewClass cl = new NewClass();
+        cl.test();
+        System.out.println("test2");
     }
 
    
