@@ -21,22 +21,14 @@ public class FirstTest {
 
     public FirstTest() {
     }
-//
-//    @Test
-//    public void test1() {
-//        NewClass cl = new NewClass();
-//        cl.test();
-//        System.out.println("sdfgsdfgsdg");
-//    }
 
     @Test
-    public void test2() {
-      List<Map<String, String>> listPersons = new ArrayList<Map<String, String>>();
-        Map<String, String> mapPersons = new HashMap<String, String>();
-        
-        
-        
-        
+    public void test1() {
+        NewClass cl = new NewClass();
+        cl.test();
+        System.out.println("sdfgsdfgsdg");
     }
+
+   
 
 }
