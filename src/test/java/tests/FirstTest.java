@@ -22,11 +22,6 @@ public class FirstTest {
     public FirstTest() {
     }
 
-    @Test
-    public void test1() {
-        System.out.println("test1");
-    }
-
     /**
      * Sets the tool tip text.
      *
