@@ -29,7 +29,10 @@ public class FirstTest {
      */
     @Test
     public void test12() {
-        System.out.println("test2");
+        NewClass cl = new NewClass();
+        cl.test1();
+        cl.test2();
+        
     }
 
 }
