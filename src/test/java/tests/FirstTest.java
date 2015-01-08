@@ -24,15 +24,15 @@ public class FirstTest {
 
     @Test
     public void test1() {
-        NewClass cl = new NewClass();
-        cl.test();
+//        NewClass cl = new NewClass();
+//        cl.test();
         System.out.println("test1");
     }
     
      @Test
     public void test12() {
-        NewClass cl = new NewClass();
-        cl.test();
+//        NewClass cl = new NewClass();
+//        cl.test();
         System.out.println("test2");
     }
 
