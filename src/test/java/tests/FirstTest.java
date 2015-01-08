@@ -28,14 +28,17 @@ public class FirstTest {
 //        cl.test();
         System.out.println("test1");
     }
-    
-     @Test
+
+    /**
+     * Sets the tool tip text.
+     *
+     * @param text the text of the tool tip
+     */
+    @Test
     public void test12() {
 //        NewClass cl = new NewClass();
 //        cl.test();
         System.out.println("test2");
     }
-
-   
 
 }
